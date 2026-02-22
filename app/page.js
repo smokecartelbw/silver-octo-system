@@ -19,8 +19,4 @@ export default function SmokeCartelBW() {
       id: 2,
       name: "King Palm Mini Rolls",
       price: 12,
-      image: "https://via.placeholder.com/400x300"
-    }
-  ]);
-
-  const [newProduct, setNewProduct] = useState({
+      image: "https://via.
