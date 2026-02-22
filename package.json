@@ -1,7 +1,34 @@
-"dependencies": {
-  "next": "14.2.5",
-  "react": "18.2.0",
-  "react-dom": "18.2.0",
-  "framer-motion": "^10.16.4",
-  "lucide-react": "^0.400.0"
+{
+  "name": "smokecartelbws",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
