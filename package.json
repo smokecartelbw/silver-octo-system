@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --force",
     "start": "next start",
     "lint": "eslint ."
   },
@@ -30,9 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build --force",
-  "start": "next start",
-  "lint": "eslint ."
   }
+}
